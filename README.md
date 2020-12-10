@@ -6,7 +6,7 @@ A data challenge course work for INF554 "Machine/Deep Learning" Course
     - Anton EMELCHENKOV
     - Ali KESHAVARZI
 
-###Required Libraries:
+### Required Libraries:
 - Create a new conda environement using "Hawks_env.yml"
 
 ## Exploratory Data Analysis:
