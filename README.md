@@ -26,7 +26,7 @@ We provided a notebook, with insights about the dataset provided, most useful fe
 - **NN with Tfidf vectorizer:** with used Tfidf embeddings as input for NN of 4 layers.
 - **LSTMs:*** using only text features
 - **LSTMs with Logistic Regressor:** using only text features for LSTMs, then we average the output of Logisitc Regressor with results from LSTM.
-- **CarRegressor_XGBoost_NeralNets:** It contains the three models trained on 13 numerical features generated from test. NeuralNet score is our best score (MAE: 154.44057)
+- **CarRegressor_XGBoost_NeuralNets:** It contains the three models trained on 13 numerical features generated from test. NeuralNet score is our best score (MAE: 154.44057)
 
 
 
