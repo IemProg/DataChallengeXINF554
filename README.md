@@ -32,7 +32,7 @@ We provided a notebook, with insights about the dataset provided, most useful fe
 
 ## Usage:
 - Dataset is not provided, it should be saved within the same folder as the notebooks.
-
+- Pre-trained model named: "NN_BestNumFeatures20_epochs_143.pt" to prevent re-training, just need be upload in CarRegressor_XGBoost_NeuralNets and it will be ready to go.
 
 
 
