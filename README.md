@@ -2,9 +2,9 @@
 A data challenge course work for INF554 "Machine/Deep Learning" Course
 
 ## Team (ID: Hawks):
-    - Imad Eddine MAROUF
-    - Anton EMELCHENKOV
-    - Ali KESHAVARZI
+    - Imad Eddine MAROUF, KaggleID: @maroufimad
+    - Anton EMELCHENKOV, KaggleID: @antonemelchenkov
+    - Ali KESHAVARZI, KaggleID: @ali2066
 
 ### Required Libraries:
 - Create a new conda environement using "Hawks_env.yml"
