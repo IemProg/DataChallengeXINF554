@@ -1,30 +1,32 @@
 # DataChallengeXINF554
 A data challenge course work for INF554 "Machine/Deep Learning" Course
 
-### Team (ID: Hawks):
+## Team (ID: Hawks):
     - Imad Eddine MAROUF
     - Anton EMELCHENKOV
     - Ali KESHAVARZI
 
 - Packages requires: create a new conda environement using "Hawks_env.yml"
 
-### Exploratory Data Analysis:
+## Exploratory Data Analysis:
 We provided a notebook, with insights about the dataset provided, most useful features 
 
-### Features Selection/Generation:
+## Features Selection/Generation:
 - Notebook provided to see the correlation, the range, variance of each numerical feature extracted.
 - Features Notebook: to generate more categorical, numerical features.
 
-### Models:
-- Logistic Regression: using only standard features
-- XGBoost Regressor: using numerical features 
-- DistilledBERT Model: Regression using distilledBERT model
-- BERT with XGBoost: Using BERT for binary classification (tweet get 0/not-zero retweet), then we apply regression on tweets classified as non-retweet by BERT.
-- NNsforRegression: Trying different neural network architecutre for regression.
-- CarRegressor_XGBoost_NeuralNets: We ensembled all the three models, using the generated features (48 features) in order to improve the accuracy.
-- LogisitcRegression_with_XGBoost: We ensembled all the two models.
-- LSTMs: using only text features
-- LSTMs with Logistic Regressor: using only text features for LSTMs, then we average the output of Logisitc Regressor with results from LSTM.
+## Models:
+- **Logistic Regression:** using only standard features
+- **XGBoost Regressor:** using numerical features 
+- **DistilledBERT Model:** Regression using distilledBERT model
+- **BERT with XGBoost:** Using BERT for binary classification (tweet get 0/not-zero retweet), then we apply regression on tweets classified as non-retweet by BERT.
+- **NNsforRegression:** Trying different neural network architecutre for regression.
+- **CarRegressor_XGBoost_NeuralNets:** We ensembled all the three models, using the generated features (48 features) in order to improve the accuracy.
+- **LogisitcRegression_with_XGBoost:**: We ensembled all the two models.
+- **NN with Tfidf vectorizer:** with used Tfidf embeddings as input for NN of 4 layers.
+- **LSTMs:*** using only text features
+- **LSTMs with Logistic Regressor:** using only text features for LSTMs, then we average the output of Logisitc Regressor with results from LSTM.
+
 
 
 
